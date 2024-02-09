@@ -29,6 +29,23 @@ if "can" in keys:
 else:
     print("hayir")
 
+
+a,b=5,7
+
+x = "a buyuk" if a > b else "a eşit veya küçük"
+
+print(x)
+
+x=a>b and "a buyuk" or "a eşit veya küçük"
+
+print(x)
+data={ "NAME":["arzu","gokhan","eren","ali","gizem","orhan"],
+              "AGE":[27,29,22,31,21,31],
+              "SALARY":[100,150,240,350,400,450]}
+
+data["maas_seviyesi"] = ["dusuk" if 200 > each else "yuksek" for each in data["SALARY"]]
+
+  
 #%%
 #FOR LOOP
 for each in range(1,11):
