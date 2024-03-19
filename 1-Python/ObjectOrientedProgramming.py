@@ -22,15 +22,15 @@
         # PARENT CLASS: Super Class, Miras alınan class
         # CHILD CLASS: Sub Class, Alt class, Parent Class'tan türetilir.
         
-        ABSTRACT CLASS: OOP'de nesnesi yaratılamayan Class'lardır. Sub class/ child class'lar için template/şablon görevi görürler.
+    #ABSTRACT CLASS: OOP'de nesnesi yaratılamayan Class'lardır. Sub class/ child class'lar için template/şablon görevi görürler.
         #Super Class'ta Abstract metot olan metotlar Sub Class'ta da kullanılmak zorundadır.
         #Abstract metotlar içeren Class'lardan direkt nesne türetilemez.
-        
-        OVERRIDING: Geçersiz kılmaktır. 
+    
+    #OVERRIDING: Geçersiz kılmaktır. 
         Super Class ve Sub Class'ta aynı isme sahip metotlar olduğunda Sub Class'taki metot öncelikli çalışır.
-        
-        POLYMORPHISM: Çok şekillilik/çeşitlilik Super Class'ta olan bir metot Sub Class'ta da var ve değerleri farklı ise bu Polymorphism'dir.
-   
+    
+    #POLYMORPHISM: Çok şekillilik/çeşitlilik. Aynı isimde farklı işlevler gören Class'lar. Super Class'ta olan bir metot Sub Class'ta da var ve değerleri farklı ise bu Polymorphism'dir.
+
     #Constant Variable: Sonucu değişmeyen her yerde aynı variable. Büyük Harflerle yazılır.  
 """
 

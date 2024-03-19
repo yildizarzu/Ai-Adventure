@@ -66,6 +66,28 @@ for each in liste:
     count = count + each
     print(count)
     
+
+liste2 = [numara ** 5 for numara in list(range(0,10))]
+print(liste2)
+
+#break=> geçerli döngüyü sonlandırır.
+for harf in 'Python':
+   if harf == 'h':
+      break
+   print('Geçerli harf :', harf)
+ 
+#continue => Continue şartı gerçekleşince altta kalan tüm ifadeler atlanıp döngünün başına gidilir.
+for harf in 'Python':
+   if harf == 'h':
+      continue
+   print('Geçerli harf:', harf)
+
+#pass => Continue ifadesi gerçekleştiği anda döngünün başına gidilirken pass ifadesinin bulunduğu blok içindeki kodlar çalışmaya devam eder.
+for harf in 'Python':  
+   if harf == 'h':
+      pass
+      print('Bu pass bloğu içinde')
+   print('Geçerli harf:', harf)
 #%%
 # WHILE LOOP
 liste = [1,4,5,6,8,3,3,4,67]
@@ -85,5 +107,19 @@ while(each < sinir):
 
 while(1):
     print("sonsuz döngü")
-    
+ 
+#break=> geçerli döngüyü sonlandırır.
+var = 10
+while var > 0:              
+   print('Geçerli değer :', var)
+   var = var -1
+   if var == 5:
+      break
 
+#continue => Continue şartı gerçekleşince altta kalan tüm ifadeler atlanıp döngünün başına gidilir.
+var = 10                    # İkinci örnek
+while var > 0:              
+   var = var - 1
+   if var == 5 or var == 8:
+      continue
+   print('Geçerli değer :', var)   
