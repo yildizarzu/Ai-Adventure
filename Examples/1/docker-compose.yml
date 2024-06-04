@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  ml-service:
+    build: .
+    container_name: ml-container
+    volumes:
+      - .:/app
+    ports:
+      - "8888:8888"
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python train.py

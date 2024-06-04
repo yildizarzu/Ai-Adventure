@@ -56,5 +56,5 @@
         - Esnek mimari ve çerçeve
         - Çeşitli hesaplama platformlarında çalışır.
         - Soyutlama yetenekleri
-        - Derin Sinir Ağlarını yönetir.
+        - Derin Sinir Ağlarını yönetir. """
 
